@@ -16,7 +16,7 @@ public class TennisCoach implements Coach {
 	
 
 
-
+	//You can @Autowired any method not only setters
 	@Autowired
 	public void setFortuneService(FortuneService fortuneService) {
 		System.out.println("inside setter method");
