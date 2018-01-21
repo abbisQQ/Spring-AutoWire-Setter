@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component("someSillyCoach")
 public class TennisCoach implements Coach {
 
-	
+	//You can even set @Autowired here this is called field injection
 	private FortuneService FortuneService;
 	
 	public TennisCoach() {
